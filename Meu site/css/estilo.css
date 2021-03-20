@@ -1,0 +1,317 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid&family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+
+
+
+/*Tags GLOBAIS*/
+	body{
+			background-color: #a8a4a4;
+		}
+
+	p{
+		display: block;
+		position: relative;
+		width: 460px;
+		left: 23px;
+
+		margin-top: 8px;
+		text-align:justify;
+		text-indent:20px;
+		font-size:16px;
+		margin-bottom: 10px;
+	}
+
+	a {
+		color: #3d3535;
+		text-decoration: none;
+	}
+
+	a:hover {
+		color: #000000;
+		font-weight: bold;
+	}
+		
+/*Tags GLOBAIS*/
+
+/*Configurando div interface*/
+
+div#interface{
+	background-color: #f0f0f0;
+	width: 1000px;
+	margin: -20px auto 0px auto; /*margem por fora do conteiner/ em relação a pagina*/
+	padding: 10px; /*margem por dentro do conteiner/ em relação ao conteiner*/
+	box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+}
+
+/*Configurando div interface*/
+
+
+/*Configurando section TEXTO*/
+	
+	div#cabecalho-apresentacao header#apresentacao h1 {
+		font-family: 'Yusei Magic', sans-serif;
+		font-size: 25px;
+		color: #444444;
+		background-color: #f0f0f0;
+		text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+		margin: 0px;
+		text-align: left;
+	}
+
+	div#cabecalho-apresentacao header#apresentacao h2{
+		font-size: 20px;
+		display: block;
+		position: relative;
+		color: #222222;
+		margin-top: 10px;
+		width: 400px;
+		padding: 0px;
+		left: 20px;
+		background-color: #f0f0f0;
+	}
+
+	div#cabecalho-apresentacao header#apresentacao h3{
+		display: block;
+		position: relative;
+		left: 270px;
+		font-size: 17px;
+		color: #5e5d5d;
+		margin-top: 0px;
+
+	}
+
+
+	section#curriculo {
+		display: block;
+		float: left;
+		width: 500px;
+		padding-right: 5px ;
+		border-right: 1px #7a7a7a solid ;
+		
+
+	}
+
+	.organização h1{
+		font-size: 30px;
+		color: #474747;
+		text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+		background-color: #d3d3d3;
+		text-align: center;
+	}
+
+	.organização h2{
+		display: block;
+		position: relative;
+		left: 10px;
+		font-size: 20px;
+		color: #1f1f1f;
+		text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+		margin-bottom: 5px;
+	}
+	.organização h3{
+		display: block;
+		position: relative;
+		left: 12px;
+		font-size: 18px;
+		color: #170099;
+		text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+		margin-bottom: -15px;
+	}
+
+	.organização h4{
+		display: block;
+		position: relative;
+		left: 18px;
+		font-size: 16px;
+		color: #d65a49;
+		text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+		margin-bottom: 5px;
+	}
+
+
+
+
+	aside#pessoal{
+		display: block;
+		width: 490px;
+		float: right;
+		top: 0px;
+		background-color: #ebebeb;
+	}
+
+	table#ensino{
+		display: block;
+		position: relative;
+		left: 70px;
+		border-spacing: 0px;
+	}
+
+	table#ensino td{
+		border: 1px solid #606060;
+		padding: 5px;
+		text-align: center;
+	}
+
+	table#ensino td.cd {
+		color: #000000;
+		background-color: #bababd;
+		font-weight: bold; /* bold = negrito*/
+		vertical-align: top; /* alinhamento vertical, nesse caso pro top*/
+	}
+
+	table#ensino td.ce {
+		color: #000000;
+		background-color: #e4dff7;
+		
+	}
+
+	table#ensino caption{
+		font-size: 11pt;
+		text-align: right;
+		font-weight: bold;
+	}
+	
+
+/*Configurando section TEXTO*/
+
+
+/*Menu principal*/
+
+
+	nav#Menu{		/*nav se refere a uma área onde terá links, como a área figure*/
+		display: block;
+
+	}
+
+	nav#Menu h1 {
+		display: none;
+	}
+
+	nav#Menu ul{/*Formata a lista inteira*/
+		list-style: none;
+		text-transform:uppercase;
+		position: absolute; /*Esse bloco(conteiner) ficará livre pelo site todo, o relative ele só se mexe dentro do bloco que ele está, não pelo site todo*/
+		top: 10px;
+		left: 350px;
+		margin-top: -5px;
+	}
+
+	nav#Menu li{/*Formata os icones da lista*/
+		display: inline-block;
+		padding: 5px; /*Espaço dentro do objeto do fundo para letra*/
+		margin: 2px; /*Espaço fora do objeto(de um objeto para outro)*/
+
+	}
+
+	nav#Menu a{
+		color:rgb(46, 46, 46);
+		text-decoration: none;
+		font-weight: bold;
+	}
+/*Menu principal*/
+
+
+
+/*Configurando header cabeçalho*/
+	header#cabecalho{
+		border-bottom: 1px #606060 solid;
+		height: 130px;
+	}
+
+	header#cabecalho h1{
+		font-size: 25pt;
+		color: #444444;
+		font-family: 'Yusei Magic', sans-serif;
+		text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+		padding: 0px;
+		margin-top: 35px;
+		margin-bottom: 0px;
+	}
+	header#cabecalho h2{
+		position: relative;
+		left: 10px;
+		font-size: 15pt;
+		color: #888888;
+		font-family: Arial, sans-serif;
+		text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+		padding: 5px;
+		margin-top: 0px;
+		margin-bottom: 5px;
+	}
+
+/*Configurando header cabeçalho*/
+
+
+/*Configurando Imagens*/
+	footer#rodape div#social img#logoSocial {
+		position: relative;
+		width: 25px;
+		height: 25px;
+		top: 4px;
+		right:5px;
+		
+	}
+
+	 header#cabecalho img#inicial{
+		position: absolute;
+		left: 950px;
+		top: 10px;
+		width: 150px;
+	}
+/*Configurando Imagens*/
+
+ 
+ /*Configurando footer*/
+ footer#rodape div#social{
+	display: block;
+	background-color: #b1a8d3;
+	border-top: 1px #606060 solid;
+	margin: 0px;
+	padding-top: -20px;
+	clear: both;
+}
+
+footer#rodape div#padrao{
+	clear: both;
+	display: block;
+	position: relative;
+	margin-top: -10px;
+	margin-bottom: -30px;
+	left: 250px;
+	
+}
+
+footer#rodape div#padrao p{
+	text-align: center;
+	font-size: 15px;
+}
+/*Configurando footer*/
+
+
+/*NAV MENU RODAPE*/
+	nav#MenuRodape ul{/*Formata a lista inteira*/
+		list-style: none;
+		text-transform:uppercase;
+		position: relative; /*Esse bloco(conteiner) ficará livre pelo site todo, o relative ele só se mexe dentro do bloco que ele está, não pelo site todo*/
+		top:0px;
+		left: 240px ;
+		margin-top: -5px;
+
+	}
+
+	nav#MenuRodape li{/*Formata os icones da lista*/
+		display: inline-block;
+		padding: 10px; /*Espaço dentro do objeto do fundo para letra*/
+		margin: 2px; /*Espaço fora do objeto(de um objeto para outro)*/
+
+	}
+
+
+	nav#MenuRodape a{
+		color:rgb(49, 45, 45);
+		text-decoration: none;
+		font-weight: bold;
+	}
+/*NAV MENU RODAPE*/

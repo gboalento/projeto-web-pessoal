@@ -48,9 +48,45 @@ div#interface{
 /*Configurando div interface*/
 
 
+/*Configurando header cabeçalho*/
+header#cabecalho{
+	border-bottom: 1px #606060 solid;
+	height: 130px;
+}
+
+header#cabecalho h1{
+	position: relative;
+	top: 20px;
+	font-size: 25pt;
+	color: #444444;
+	font-family: 'Yusei Magic', sans-serif;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+	padding: 0px;
+	margin-top: 35px;
+	margin-bottom: 0px;
+}
+header#cabecalho h2{
+	position: relative;
+	left: 10px;
+	top: 20px;
+	color: #505050;
+	font-size: 18pt;
+	font-family: Arial, sans-serif;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+	padding: 5px;
+	margin-top: 0px;
+	margin-bottom: 5px;
+	letter-spacing: 3px;
+}
+
+/*Configurando header cabeçalho*/
+
+
+
+
 /*Configurando section TEXTO*/
-	
-	div#cabecalho-apresentacao header#apresentacao h1 {
+/* HEADER APRESENTAÇÃO */	
+	 header#apresentacao h1 {
 		font-family: 'Yusei Magic', sans-serif;
 		font-size: 25px;
 		color: #444444;
@@ -58,10 +94,11 @@ div#interface{
 		text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
 		margin: 0px;
 		text-align: left;
+		letter-spacing: 0px;
 	}
 
-	div#cabecalho-apresentacao header#apresentacao h2{
-		font-size: 20px;
+		header#apresentacao p{
+		font-size: 18px;
 		display: block;
 		position: relative;
 		color: #222222;
@@ -72,7 +109,7 @@ div#interface{
 		background-color: #f0f0f0;
 	}
 
-	div#cabecalho-apresentacao header#apresentacao h3{
+		header#apresentacao h3{
 		display: block;
 		position: relative;
 		left: 270px;
@@ -82,6 +119,36 @@ div#interface{
 
 	}
 
+	table#dados-pessoais{
+		display: block;
+		position: relative;
+		left: 70px;
+		border-spacing: 0px;
+	}
+
+	table#dados-pessoais td{
+		border: 1px solid #606060;
+		padding: 5px;
+		text-align: center;
+	}
+
+	table#dados-pessoais td.cd {
+		color: #000000;
+		background-color: #bababd;
+		font-weight: bold; /* bold = negrito*/
+		vertical-align: top; /* alinhamento vertical, nesse caso pro top*/
+	}
+
+	table#dados-pessoais td.ce {
+		color: #000000;
+		background-color: #e4dff7;
+		
+	}
+
+	table#dados-pessoais caption{
+	opacity: 0%;
+	}
+/* HEADER APRESENTAÇÃO */
 
 	section#curriculo {
 		display: block;
@@ -99,6 +166,7 @@ div#interface{
 		text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
 		background-color: #d3d3d3;
 		text-align: center;
+		letter-spacing: 5px;
 	}
 
 	.organização h2{
@@ -133,46 +201,17 @@ div#interface{
 
 
 
-	aside#pessoal{
+	aside#lateral{
 		display: block;
 		width: 490px;
 		float: right;
 		top: 0px;
 		background-color: #ebebeb;
 	}
-
-	table#ensino{
-		display: block;
-		position: relative;
-		left: 70px;
-		border-spacing: 0px;
-	}
-
-	table#ensino td{
-		border: 1px solid #606060;
-		padding: 5px;
-		text-align: center;
-	}
-
-	table#ensino td.cd {
-		color: #000000;
-		background-color: #bababd;
-		font-weight: bold; /* bold = negrito*/
-		vertical-align: top; /* alinhamento vertical, nesse caso pro top*/
-	}
-
-	table#ensino td.ce {
-		color: #000000;
-		background-color: #e4dff7;
-		
-	}
-
-	table#ensino caption{
-		font-size: 11pt;
-		text-align: right;
+	aside#lateral span{
 		font-weight: bold;
 	}
-	
+
 
 /*Configurando section TEXTO*/
 
@@ -194,7 +233,7 @@ div#interface{
 		text-transform:uppercase;
 		position: absolute; /*Esse bloco(conteiner) ficará livre pelo site todo, o relative ele só se mexe dentro do bloco que ele está, não pelo site todo*/
 		top: 10px;
-		left: 350px;
+		left: 450px;
 		margin-top: -5px;
 	}
 
@@ -211,37 +250,6 @@ div#interface{
 		font-weight: bold;
 	}
 /*Menu principal*/
-
-
-
-/*Configurando header cabeçalho*/
-	header#cabecalho{
-		border-bottom: 1px #606060 solid;
-		height: 130px;
-	}
-
-	header#cabecalho h1{
-		font-size: 25pt;
-		color: #444444;
-		font-family: 'Yusei Magic', sans-serif;
-		text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
-		padding: 0px;
-		margin-top: 35px;
-		margin-bottom: 0px;
-	}
-	header#cabecalho h2{
-		position: relative;
-		left: 10px;
-		font-size: 15pt;
-		color: #888888;
-		font-family: Arial, sans-serif;
-		text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
-		padding: 5px;
-		margin-top: 0px;
-		margin-bottom: 5px;
-	}
-
-/*Configurando header cabeçalho*/
 
 
 /*Configurando Imagens*/

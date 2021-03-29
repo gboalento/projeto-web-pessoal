@@ -1,9 +1,9 @@
 @charset "UTF-8";
 
 ul#album-fotos {
-    width: 1000px;
-    margin: 0px 0px 0px 90px;
-    padding: 0px;
+    width: 1050px;
+    height: 900px;
+    padding: 60px 0px 0px 90px;
     overflow: hidden;
     list-style: none;
     float: left;
@@ -13,7 +13,7 @@ ul#album-fotos li{
     float: left;
     width: 250px;
     height: 250px;
-    margin: 10px;
+    margin: 5px;
     border: 2px solid white;
     background-color: white;
     box-shadow: 1px 1px 3px rgba(0, 0,0, 0.4);
@@ -37,13 +37,14 @@ ul#album-fotos li:hover {
 
 
 ul#album-fotos li:hover span{
+    -webkit-transition: all .6s ease-in;
     opacity: 100%;
 }
 
 ul#album-fotos li#foto01{
     background: url('../Imagens/Fotos_minhas/Mae.jpg') no-repeat ;
     background-position: 50% 50%;
-    background-size: 459px 500px;
+    background-size: 300px 299px;
     background-color: white;
 }
 
